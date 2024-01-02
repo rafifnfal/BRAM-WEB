@@ -3,34 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pusat Kontrol Pekerjaan</title>
-    <!-- Tambahkan CSS sesuai kebutuhan -->
+    <title>My Professional Links</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        .link-container {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
+
+        .container {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .links {
+            padding: 20px;
+        }
+
         .link-item {
-            margin: 10px;
+            margin: 10px 0;
+            transition: background-color 0.3s ease;
+        }
+
+        .link-item:hover {
+            background-color: #ecf0f1;
+        }
+
+        .link-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            display: block;
+        }
+
+        .footer {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
-    <h1>Pusat Kontrol Pekerjaan</h1>
-    <div class="link-container">
-        <!-- Tambahkan link Anda di sini -->
+
+<div class="container">
+    <div class="header">My Professional Links</div>
+    <div class="links">
+        <div class="link-item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfL1SraT9C8flhjiq7O--63uV33xzWI26_LdM8Wpi7w7mBPjQ/viewform">REPORT ISSUE BRAM</a></div>
         <div class="link-item"><a href="https://docs.google.com/spreadsheets/d/114jt1DejZakfYAnu1_Obj__ZTVvPW-vm/edit?usp=sharing&ouid=117017315400396951489&rtpof=true&sd=true">JURNAL KABAG</a></div>
-        <div class="link-item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfL1SraT9C8flhjiq7O--63uV33xzWI26_LdM8Wpi7w7mBPjQ/viewform?usp=send_form">REPORT ISSUE BRAM</a></div>
         <!-- Tambahkan lebih banyak link sesuai kebutuhan -->
     </div>
+    <div class="footer">© 2024 My Website</div>
+</div>
+
 </body>
 </html>
